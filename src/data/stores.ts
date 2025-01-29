@@ -131,6 +131,23 @@ export const stores: Store[] = [
     logo: 'https://scontent.fmex10-4.fna.fbcdn.net/v/t39.30808-6/313166746_543794137751883_2567280044591324065_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeELJhcG3aUdrVcP0TOd1PlNVhxS3jC-T0dWHFLeML5PRwVSwLycgeZ5AV1HL4U7RLHcj6q4_7Pj8TCi08t7Mgat&_nc_ohc=kCD2KE4IXLAQ7kNvgE0oHqS&_nc_zt=23&_nc_ht=scontent.fmex10-4.fna&_nc_gid=A63oOZUOjt9sUg0TWfGHkIL&oh=00_AYBsfbUF87uxwSbn_Nrn0WTqLYbs_cPS2RlA9cwBR8Br1g&oe=679F4C74'
   },
   {
+    id: 'tikoochop',
+    name: 'TikooChop',
+    estado: 'Ciudad de México',
+    address: 'Av. Andres Molina Enriquez 2903, Asturias, Cuauhtemoc, 06890 Ciudad de Mexico, CDMX',
+    games: ['Lorcana'],
+    events: [
+      {
+        day: 'Viernes',
+        game: 'Lorcana',
+        time: '16:00',
+        description: 'Torneo Lorcana'
+      },
+    ],
+    contact: {},
+    logo: 'https://scontent.fmex10-1.fna.fbcdn.net/v/t39.30808-6/450810273_1150104096502652_3884211054661831404_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGKp_YIMX9QLnaMoRDvSgxANTd1E7ZkEXk1N3UTtmQReY__pBq0Ku7pgJvi1rqi2hM0-fMS6AJNHLiwrLj0FYlA&_nc_ohc=Or6-1nRtIS4Q7kNvgFDsBwa&_nc_zt=23&_nc_ht=scontent.fmex10-1.fna&_nc_gid=A0pMq1gjGCqQ8n50JWy3csR&oh=00_AYAKNKqezzjAbruTocSi-0r5nilCjwA-v2ou01bR5uKqog&oe=679FF940'
+  },
+  {
     id: 'the-nest',
     name: 'The Nest',
     estado: 'Ciudad de México',
