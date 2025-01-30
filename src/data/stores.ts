@@ -21,6 +21,25 @@ export interface Store {
 
 export const stores: Store[] = [
   {
+    id: 'evolution-coapa',
+    name: 'Evolution Coapa',
+    estado: 'Ciudad de México',
+    address: 'Calzada del Hueso #921 14330 Mexico City, Mexico, CDMX',
+    games: ['Lorcana'],
+    events: [
+      {
+        day: 'Jueves',
+        game: 'Lorcana',
+        time: '19:00',
+        description: 'Liga Lorcana'
+      }
+    ],
+    contact: {
+      facebook: 'https://www.facebook.com/p/Evolution-Coapa-100092316373312/'
+    },
+    logo: 'https://scontent.fmex10-4.fna.fbcdn.net/v/t39.30808-6/345318806_1333140080918254_1308714968697584957_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH0qDNTd8wNROm1S8qU_RyQ0JqbrNDtJAfQmpus0O0kBww4lK-NMcnhyxOBYjZF5lx2LvYI0dwbioWvGJW87c-a&_nc_ohc=AUPQDamInAkQ7kNvgGnNlVK&_nc_zt=23&_nc_ht=scontent.fmex10-4.fna&_nc_gid=AybOCYY-oxk3zYDGQbPBw5V&oh=00_AYDrYIMD2NvuhEyPV7nEEdShht7Um0b_Yfrn_Hy0SV-gWA&oe=67A11E45'
+  },
+  {
     id: 'kitsune',
     name: 'Kitsune Hobby Center',
     estado: 'Ciudad de México',
